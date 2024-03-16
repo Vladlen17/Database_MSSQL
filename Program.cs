@@ -1,4 +1,6 @@
-﻿using ConsoleApp.Models;
+﻿using ConsoleApp.Database;
+using ConsoleApp.Database.Manager;
+using ConsoleApp.Models;
 
 namespace ConsoleApp
 {

@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ConsoleApp.Database;
 using ConsoleApp.Models;
+using ConsoleApp.Repository;
 
-namespace ConsoleApp
+namespace ConsoleApp.Database.Manager
 {
     public class UserRepository : IDatabaseRepository<UserModel>
     {
